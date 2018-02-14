@@ -1,5 +1,7 @@
 """
-Alone.py
+M00D.py
+Neat litte aesthetic generator
+by Dylan Hamer
 """
 
 import random, click, time, sys
