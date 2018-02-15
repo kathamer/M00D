@@ -15,6 +15,6 @@ class raindrops:
 
 mood(colours = raindrops.colours,
      text = raindrops.text,
-     delay = raindrops.delay
+     delay = raindrops.delay,
      title = raindrops.title,
      exitMessage = raindrops.exitMessage)
