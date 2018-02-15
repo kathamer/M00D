@@ -4,7 +4,7 @@ Police aesthetic for M00D
 by Dylan Hamer
 """
 
-from M00D import mood
+from M00D import loop, clear
 
 class police:
     colours = ["red", "white", "blue"]
@@ -13,7 +13,9 @@ class police:
     title = "It\'s the cops!"
     exitMessage = "\n\nWoop Woop, that\'s the sound of the police!\n"
 
-mood(colours = police.colours,
+clear()
+
+loop(colours = police.colours,
      text = police.text,
      delay = police.delay,
      title = police.title,

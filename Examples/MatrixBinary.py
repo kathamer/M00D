@@ -4,16 +4,18 @@ Matrix aesthetic for M00D
 by Dylan Hamer
 """
 
-from M00D import mood
+from M00D import loop, clear
 
 class matrix:
     colours = ["green", "white"]
     text = ["0", "1"]
-    delay = 0.01
+    delay = 0.001
     title = "F0110W TH3 WH1T3 R@881T"
     exitMessage = "\n\nIgnorance is bliss.\n"
 
-mood(colours = matrix.colours,
+clear()
+
+loop(colours = matrix.colours,
      text = matrix.text,
      delay = matrix.delay,
      title = matrix.title,
