@@ -1,12 +1,12 @@
 """
-Raindrops.py
+Raindrops
 Raindrop aesthetic for M00D
 by Dylan Hamer
 """
 
 from M00D import loop, clear
 
-class raindrops:
+raindrops
     colours = ["blue", "cyan", "white"]
     text = ["drip ", "drop ", "splash "]
     title = "It\'s raining..."
