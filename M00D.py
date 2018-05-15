@@ -1,5 +1,5 @@
 """
-M00D.py
+M00D
 Neat litte aesthetic generator
 by Dylan Hamer
 """
